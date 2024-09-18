@@ -1,0 +1,35 @@
+export const pilihanIzinKhusus = [
+  { id: "CTK1", value: "Pegawai sendiri menikah" },
+  { id: "CTK2", value: "Anak kandung menikah" },
+  { id: "CTK3", value: "Anak adopsi menikah" },
+  { id: "CTK4", value: "Istri meniggal" },
+  { id: "CTK5", value: "Suami meniggal" },
+  { id: "CTK6", value: "Anak Meninggal" },
+  { id: "CTK7", value: "Orang tua meninggal" },
+  { id: "CTK8", value: "Mertua meninggal" },
+  { id: "CTK9", value: "Istri melahirkan" },
+  { id: "CTK10", value: "Istri keguguran" },
+  { id: "CTK11", value: "Pegawai sendiri melahirkan" },
+  { id: "CTK12", value: "Pegawai sendiri keguguran" },
+  { id: "CTK13", value: "Anggota keluarga serumah meninggal" },
+  { id: "CTK14", value: "Anak dibaptis" },
+  { id: "CTK15", value: "Anak sidhi" },
+  { id: "CTK16", value: "Anak khitan" },
+];
+
+export const pilihanIzinBiasa = [
+  { id: "CTB1", value: "Izin potong gaji" },
+  { id: "CTB2", value: "Izin musibah" },
+  { id: "CTB3", value: "Izin 1/2 hari" },
+  { id: "CTB4", value: "Izin sakit 1 hari" },
+  { id: "CTB5", value: "Izin sakit COVID-19 10 hari" },
+  { id: "CTB6", value: "Tugas dinas luar" },
+  { id: "CTB7", value: "Tugas training" },
+  { id: "CTB8", value: "Tugas event" },
+  { id: "CTB9", value: "Lupa Presensi" },
+  { id: "CTB10", value: "Tidak Hadir (Hal Kebijakan Khusus)" },
+  {
+    id: "CTB11",
+    value: "Hadir (jari tidak terbaca sistem / score Self Assesment sedang",
+  },
+];

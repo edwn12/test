@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "absensi-penabur-app",
+    "slug": "absensi-penabur-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Icon-SAS.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/Logo-Master-SIM-73.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/Icon-SAS.png",
+      "bundleIdentifier": "com.dwiks.absensipenaburapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Icon-SAS.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.dwiks.absensipenaburapp"
+    },
+    "web": {
+      "favicon": "./assets/images/Icon-SAS.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d9ccfa06-cf9f-4973-b87e-ae71320cbaea"
+      }
+    },
+    "owner": "dwiks"
+  }
+}
